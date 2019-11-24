@@ -10,6 +10,7 @@
      owner: root
      group: root
      mode: u+x,g+x,o+x
+    become: yes
 
   - name: Move arquivo de /home/rodrigo para /tmp
     command: mv /home/rodrigo/arquivo.arq /tmp/
