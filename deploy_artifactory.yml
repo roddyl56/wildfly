@@ -1,6 +1,6 @@
 ---
 - name: Hosts do template
-  hosts: 10.5.16.52
+  hosts: 192.168.0.160
   gather_facts: no
 
   tasks: 
