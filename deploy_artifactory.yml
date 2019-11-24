@@ -14,3 +14,8 @@
 
   - name: Move arquivo de /home/rodrigo para /tmp
     command: mv /home/rodrigo/arquivo.arq /tmp/
+
+  - name: Stop service sshd, in all cases
+    service:
+      name: sshd
+      state: stop
